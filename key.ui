@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>key</class>
+ <widget class="QDialog" name="key">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="mezen">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>391</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Users/haouas/Downloads/barriere.png</normaloff>../../Users/haouas/Downloads/barriere.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>300</width>
+     <height>400</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>351</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    color: rgb(28, 44, 54);
+    font: 700 20pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>System de Barriére:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>380</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#cancel {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#cancel:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#cancel:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../firqs/icons/annule.png</normaloff>../../firqs/icons/annule.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>150</y>
+     <width>181</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    color: rgb(28, 44, 54);
+    font: 700 20pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

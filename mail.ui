@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mail</class>
+ <widget class="QDialog" name="mail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>815</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>711</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #eeeeee;</string>
+   </property>
+   <widget class="QPushButton" name="envoi">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>530</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#envoi {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#envoi:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#envoi:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ENVOYER</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/envoyer.png</normaloff>../../firqs/icons/envoyer.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>29</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="idemail">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>40</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Entrer l'ID</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>511</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>480</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font: 700 9pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>511</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="envoi3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#envoi3 {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#envoi3:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#envoi3:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>VOIR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/jumelles.png</normaloff>../../firqs/icons/jumelles.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="objectif">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>511</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>530</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#cancel {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#cancel:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#cancel:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ANNULER</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/annule.png</normaloff>../../firqs/icons/annule.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="piece">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>160</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/piece-jointe.png</normaloff>../../firqs/icons/piece-jointe.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>45</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>envoi</zorder>
+   <zorder>idemail</zorder>
+   <zorder>label2</zorder>
+   <zorder>message</zorder>
+   <zorder>label</zorder>
+   <zorder>envoi3</zorder>
+   <zorder>objectif</zorder>
+   <zorder>tableView</zorder>
+   <zorder>cancel</zorder>
+   <zorder>piece</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

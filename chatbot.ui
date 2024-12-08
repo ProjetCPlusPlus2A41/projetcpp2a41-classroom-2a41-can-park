@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chatbot</class>
+ <widget class="QDialog" name="chatbot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextEdit" name="chatDisplay">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>681</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sendButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>440</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>181</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#sendButton {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 15pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#sendButton:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#sendButton:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../firqs/icons/envoyer.png</normaloff>../../firqs/icons/envoyer.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>45</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="messageInput">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>420</y>
+     <width>501</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

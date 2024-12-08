@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>qrcode</class>
+ <widget class="QDialog" name="qrcode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>579</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>681</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(238, 238, 238);</string>
+   </property>
+   <widget class="QLineEdit" name="lineEditId">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>211</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>70</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>390</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#cancel {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#cancel:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#cancel:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ANNULER</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/annule.png</normaloff>../../firqs/icons/annule.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="envoi_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>390</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#envoi_2 {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#envoi_2:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#envoi_2:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>QR code</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/bar.png</normaloff>../../firqs/icons/bar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>511</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="envoi3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#envoi3 {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+}
+
+QPushButton#envoi3:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#envoi3:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>VOIR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../firqs/icons/jumelles.png</normaloff>../../firqs/icons/jumelles.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qrLabel">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>150</y>
+      <width>231</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>lineEditId</zorder>
+   <zorder>label_14</zorder>
+   <zorder>cancel</zorder>
+   <zorder>envoi_2</zorder>
+   <zorder>envoi3</zorder>
+   <zorder>qrLabel</zorder>
+   <zorder>tableView</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
