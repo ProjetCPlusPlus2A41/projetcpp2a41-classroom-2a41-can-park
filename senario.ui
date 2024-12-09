@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>senario</class>
+ <widget class="QDialog" name="senario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>536</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	border-color: #115d0b;
+    font-family: &quot;Courier New&quot;, Courier, monospace;
+    font-size: 20px;
+    color: #21961d; /* Green color for the text */
+    background-color: #0b1800; /* Black background */
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+    border: 4px solid #115d0b; /* Green border */
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
