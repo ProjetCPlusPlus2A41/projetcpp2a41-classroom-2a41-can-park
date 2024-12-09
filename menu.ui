@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1528</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#stackWidget{
+	background-color: #eeeeee;
+
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>221</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #284853;
+background-color: #284853;</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(227, 227, 227);
+border: 0.9px solid rgb(227, 227, 227) ;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Users/haouas/OneDrive - ESPRIT/Bureau/12S.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="out">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>630</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#out {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#out:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#out:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Déconnexion</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../Users/haouas/Downloads/se-deconnecter (1).png</normaloff>../Users/haouas/Downloads/se-deconnecter (1).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>36</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>221</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="home">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#home {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#home:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#home:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Accueil</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/accueil.png</normaloff>../Users/haouas/Downloads/accueil.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>54</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="client">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#client {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;  /* Added missing semicolon */
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#client:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#client:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Client</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/client (1).png</normaloff>../Users/haouas/Downloads/client (1).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>56</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delivery">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#delivery {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#delivery:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#delivery:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Livraison</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/un-camion.png</normaloff>../Users/haouas/Downloads/un-camion.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>56</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="employee">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#employee {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#employee:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#employee:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Employe</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/casque (2).png</normaloff>../Users/haouas/Downloads/casque (2).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>56</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sale">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#sale {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#sale:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#sale:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Vente</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/panier.png</normaloff>../Users/haouas/Downloads/panier.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="matter">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#matter {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#matter:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#matter:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Matiére</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/emballage.png</normaloff>../Users/haouas/Downloads/emballage.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>56</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="equipement">
+       <property name="styleSheet">
+        <string notr="true">QPushButton#equipement {
+    background-color: rgb(40, 72, 83);
+    font: 700 12pt &quot;Segoe UI&quot;;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#equipement:hover {
+    background-color: rgb(255, 255, 255);  /* White background on hover */
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#equipement:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Equipement</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/machine-robotique.png</normaloff>../Users/haouas/Downloads/machine-robotique.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>56</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>70</y>
+     <width>1281</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>1170</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Users/haouas/Downloads/vieil-homme (2).png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QPushButton" name="ajouter">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/ajouter.png</normaloff>../Users/haouas/Downloads/ajouter.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="liste">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(154, 231, 231);</string>
+     </property>
+     <property name="text">
+      <string>Liste</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/liste-de-souhaits.png</normaloff>../Users/haouas/Downloads/liste-de-souhaits.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ex">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 167, 0);</string>
+     </property>
+     <property name="text">
+      <string>Exporter </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/exceller.png</normaloff>../Users/haouas/Downloads/exceller.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdf">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>80</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(255, 28, 69);</string>
+     </property>
+     <property name="text">
+      <string>Exporter </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/format-de-fichier-pdf.png</normaloff>../Users/haouas/Downloads/format-de-fichier-pdf.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>381</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+     </property>
+     <property name="text">
+      <string> Information de Client</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>1271</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_8">
+      <widget class="QTableView" name="tableView">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>841</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_IDS">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>190</y>
+         <width>321</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>190</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="supprimer">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>270</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/supprimer (1).png</normaloff>../Users/haouas/Downloads/supprimer (1).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>45</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="tri">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>20</y>
+         <width>351</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color:  lightblue;
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Par_Defaut</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nom</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Quantite</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLineEdit" name="recherche">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>30</y>
+         <width>281</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(182, 182, 182);border: 2px solid rgb(0,0,0,0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="supprimerTout">
+       <property name="geometry">
+        <rect>
+         <x>1050</x>
+         <y>340</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/haouas/Downloads/supprimer (2).png</normaloff>../../Users/haouas/Downloads/supprimer (2).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>60</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_9">
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>20</y>
+         <width>111</width>
+         <height>59</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 16pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+       </property>
+       <property name="text">
+        <string>CLIENT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="id">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>90</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nom">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="prenom">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>240</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Prennom</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="email">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>320</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>320</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>90</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Produit à conserver</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="produit">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>90</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>160</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Date de conservation</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="quantite">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>220</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>220</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Quantité</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="confirmer">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>370</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#confirmer {
+	background-color: rgb(255, 255, 255);
+    font: 75 12pt &quot;MS Shell Dlg 2&quot;;  /* Updated font */
+    color: rgb(40, 72, 83);  /* Standard text color */
+    text-align: centre;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+}
+
+QPushButton#confirmer:hover {
+	background-color: rgb(85, 85, 85);
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#confirmer:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Confirmer</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>400</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Téléphone</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="telephone">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>400</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="type">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>280</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>280</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Type client</string>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="dateEdit">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_10">
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>50</y>
+         <width>400</width>
+         <height>304</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="carte">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../Users/haouas/Downloads/carte-de-debit (1).png</normaloff>../Users/haouas/Downloads/carte-de-debit (1).png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>300</width>
+            <height>250</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_17">
+          <property name="styleSheet">
+           <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);
+text-align: centre;
+</string>
+          </property>
+          <property name="text">
+           <string>         Carte de fidélité</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>711</x>
+         <y>51</y>
+         <width>421</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_18">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);
+text-align: centre;
+</string>
+          </property>
+          <property name="text">
+           <string>               Email</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="emailc">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../Users/haouas/Downloads/poster.png</normaloff>../Users/haouas/Downloads/poster.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>160</width>
+            <height>140</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_11"/>
+    </widget>
+    <widget class="QPushButton" name="statiques">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>80</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+background-color: rgb(76, 212, 208);
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(55, 179, 190);
+background-color: rgb(65, 146, 181);
+background-color: rgb(130, 93, 186);</string>
+     </property>
+     <property name="text">
+      <string>Statiques</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/graphique.png</normaloff>../Users/haouas/Downloads/graphique.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="avance">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>Email/Carte</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/en-fonctionnement.png</normaloff>../Users/haouas/Downloads/en-fonctionnement.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>220</y>
+       <width>231</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>dddddddd</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>250</y>
+       <width>241</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>EEEEEEEEE</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>230</y>
+       <width>161</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SSSSSSS</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <widget class="QStackedWidget" name="stackedWidgetm">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>1271</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="page_31">
+      <widget class="QTableView" name="tableViewm">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>841</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="idm1">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>190</y>
+         <width>321</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_62">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>190</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="supprimerm">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>270</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/supprimer (1).png</normaloff>../Users/haouas/Downloads/supprimer (1).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>45</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="tri_5">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>20</y>
+         <width>351</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color:  lightblue;
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Par_Defaut</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nom</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Quantite</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLineEdit" name="recherche_5">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>30</y>
+         <width>281</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(182, 182, 182);border: 2px solid rgb(0,0,0,0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_32">
+      <widget class="QLabel" name="label_63">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>20</y>
+         <width>271</width>
+         <height>59</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 16pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+       </property>
+       <property name="text">
+        <string>Matiére Premiére</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_64">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID_m</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="idm">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>90</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nomqdedded_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Produit_m</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="porduitm">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="quantitem">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>240</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_65">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Quantite_m</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="cm">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>320</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_66">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>320</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Categorie_m</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_67">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>90</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Prix_m</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="pm">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>90</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="confirmerm">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>370</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#confirmer {
+	background-color: rgb(255, 255, 255);
+    font: 75 12pt &quot;MS Shell Dlg 2&quot;;  /* Updated font */
+    color: rgb(40, 72, 83);  /* Standard text color */
+    text-align: centre;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+}
+
+QPushButton#confirmer:hover {
+	background-color: rgb(85, 85, 85);
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#confirmer:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Confirmer</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_68">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>160</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Date_Ajout</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_71">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>240</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Date_Expiration</string>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="am">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="em">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>240</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_33">
+      <widget class="QWidget" name="layoutWidget_7">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>50</y>
+         <width>400</width>
+         <height>304</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QPushButton" name="pushButton_20">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../Users/haouas/Downloads/alarme.png</normaloff>../Users/haouas/Downloads/alarme.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>300</width>
+            <height>250</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_69">
+          <property name="styleSheet">
+           <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);
+text-align: centre;
+</string>
+          </property>
+          <property name="text">
+           <string>              Alerte</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>30</y>
+         <width>261</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/ia.png</normaloff>../Users/haouas/Downloads/ia.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>250</width>
+         <height>200</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_70">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>310</y>
+         <width>351</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);
+text-align: centre;
+</string>
+       </property>
+       <property name="text">
+        <string>                  AI</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_34"/>
+    </widget>
+    <widget class="QPushButton" name="listem">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(154, 231, 231);</string>
+     </property>
+     <property name="text">
+      <string>Liste</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/liste-de-souhaits.png</normaloff>../Users/haouas/Downloads/liste-de-souhaits.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="statiquesm">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>80</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+background-color: rgb(76, 212, 208);
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(55, 179, 190);
+background-color: rgb(65, 146, 181);
+background-color: rgb(130, 93, 186);</string>
+     </property>
+     <property name="text">
+      <string>Statiques</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/graphique.png</normaloff>../Users/haouas/Downloads/graphique.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ajouterm">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/raw-material.png</normaloff>../Users/haouas/Downloads/raw-material.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdf_7">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>80</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(255, 28, 69);</string>
+     </property>
+     <property name="text">
+      <string>Exporter </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/format-de-fichier-pdf.png</normaloff>../Users/haouas/Downloads/format-de-fichier-pdf.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ex_7">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 167, 0);</string>
+     </property>
+     <property name="text">
+      <string>Exporter </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/exceller.png</normaloff>../Users/haouas/Downloads/exceller.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="avancem">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>Alerte/IA</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/en-fonctionnement.png</normaloff>../Users/haouas/Downloads/en-fonctionnement.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_110">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>591</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+     </property>
+     <property name="text">
+      <string> Information sur Matiere Premiére</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_7">
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>531</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+     </property>
+     <property name="text">
+      <string> Information de l'Equipement</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="avanceq">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>Email/Carte</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/en-fonctionnement.png</normaloff>../Users/haouas/Downloads/en-fonctionnement.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ajouterq">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/machine-dusine.png</normaloff>../Users/haouas/Downloads/machine-dusine.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="listeq">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(154, 231, 231);</string>
+     </property>
+     <property name="text">
+      <string>Liste</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/liste-de-souhaits.png</normaloff>../Users/haouas/Downloads/liste-de-souhaits.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="statiquesq">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>80</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+background-color: rgb(76, 212, 208);
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(55, 179, 190);
+background-color: rgb(65, 146, 181);
+background-color: rgb(130, 93, 186);</string>
+     </property>
+     <property name="text">
+      <string>Statiques</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/graphique.png</normaloff>../Users/haouas/Downloads/graphique.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pdf_2">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>80</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(255, 28, 69);</string>
+     </property>
+     <property name="text">
+      <string>Exporter </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/format-de-fichier-pdf.png</normaloff>../Users/haouas/Downloads/format-de-fichier-pdf.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ex_2">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>80</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 167, 0);</string>
+     </property>
+     <property name="text">
+      <string>Exporter </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../Users/haouas/Downloads/exceller.png</normaloff>../Users/haouas/Downloads/exceller.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>1271</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="page_12">
+      <widget class="QTableView" name="tableViewq">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>841</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="idq2">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>190</y>
+         <width>321</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>190</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="supprimerq">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>270</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/supprimer (1).png</normaloff>../Users/haouas/Downloads/supprimer (1).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>45</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="tri_2">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>20</y>
+         <width>351</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid green;
+color: rgb(255, 255, 255);
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+background-color:  lightblue;
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Par_Defaut</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nom</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Quantite</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLineEdit" name="recherche_2">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>30</y>
+         <width>281</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(182, 182, 182);border: 2px solid rgb(0,0,0,0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_13">
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>20</y>
+         <width>271</width>
+         <height>59</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 16pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+       </property>
+       <property name="text">
+        <string>EQUIPEMENT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID_Eq</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="idq">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>90</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nomqdedded">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Nom_Eq</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nomq">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="etatq">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>240</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Etat_Eq</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="typeq">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>320</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>320</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Type_Eq</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>90</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Nombre_Eq</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nbq">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>90</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="confirmerq">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>370</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#confirmer {
+	background-color: rgb(255, 255, 255);
+    font: 75 12pt &quot;MS Shell Dlg 2&quot;;  /* Updated font */
+    color: rgb(40, 72, 83);  /* Standard text color */
+    text-align: centre;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+}
+
+QPushButton#confirmer:hover {
+	background-color: rgb(85, 85, 85);
+    color: rgb(15, 15, 15);  /* Change text color to black on hover */
+}
+
+QPushButton#confirmer:pressed {
+    background-color: rgb(230, 230, 230);  /* Light grey background when pressed */
+    color: rgb(15, 15, 15);  /* Change text color to black when pressed */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Confirmer</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>240</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Cout_Eq</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="coutq">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>240</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_14">
+      <widget class="QWidget" name="layoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>50</y>
+         <width>400</width>
+         <height>304</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QPushButton" name="pushButton_14">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../Users/haouas/Downloads/ajouter-une-image.png</normaloff>../Users/haouas/Downloads/ajouter-une-image.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>300</width>
+            <height>250</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_36">
+          <property name="styleSheet">
+           <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);
+text-align: centre;
+</string>
+          </property>
+          <property name="text">
+           <string>              Image</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>30</y>
+         <width>261</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(0,0,0,0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Users/haouas/Downloads/sms (1).png</normaloff>../Users/haouas/Downloads/sms (1).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>250</width>
+         <height>200</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>310</y>
+         <width>351</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);
+text-align: centre;
+</string>
+       </property>
+       <property name="text">
+        <string>               SMS</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_15"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>93</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb();
+border:#eeeeee;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Users/haouas/Downloads/retour (4).png</normaloff>../Users/haouas/Downloads/retour (4).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>56</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>241</width>
+     <height>59</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Segoe UI&quot;;
+color: rgb(40, 72, 83);</string>
+   </property>
+   <property name="text">
+    <string>Tableau de Bord</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

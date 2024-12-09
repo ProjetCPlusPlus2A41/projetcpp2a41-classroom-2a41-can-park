@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mail</class>
+ <widget class="QDialog" name="mail">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>815</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>651</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #eeeeee;</string>
+   </property>
+   <widget class="QPushButton" name="envoi">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>500</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#envoi {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#envoi:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#envoi:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ENVOYER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#cancel {
+    background-color: rgb(28, 44, 54);
+border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+
+    color: rgb(213, 216, 218);
+    font: 700 9pt &quot;Segoe UI&quot;;
+    cursor: pointer;  /* Hand pointer cursor on hover */
+}
+
+QPushButton#cancel:hover {
+  /* Darker shade when hovering */
+	background-color: #284853;
+    color: rgb(255, 255, 255);  /* Optional: Change text color on hover */
+}
+
+QPushButton#cancel:pressed {
+	background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);  /* Optional: Change text color when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ANNULER</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="idemail">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1.6px solid rgba(170,173,174,255)rgb(255, 255, 255); border-radius: 5px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>35</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Segoe UI Symbol&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Entrer l'ID</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>110</y>
+      <width>511</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
